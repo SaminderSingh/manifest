@@ -18,6 +18,7 @@ spec:
       containers:
       - name: spring-boot-app
         image: sammy34719/jenkinscicd:13
+        imagePullPolicy: Always
         ports:
         - containerPort: 8080
  
